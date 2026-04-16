@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.env
+*.venv
+env/
+venv/
+
+# 数据文件
+data/
+*.csv
+*.pkl
+*.h5
+*.npy
+
+# 模型文件
+models/*.pt
+!models/.gitkeep
+
+# 结果文件
+results/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
